@@ -1,0 +1,8 @@
+numpy
+pyquaternion
+tqdm
+scipy
+pillow
+open3d==0.13.0
+trimesh==3.9.43
+h5py
