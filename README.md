@@ -1,8 +1,12 @@
+# Individual Motion Analysis (IMA)
+
+This is a collection of tools that can be used in combination with [OpenSim](https://simtk.org/projects/opensim). Tools to integrate individual body scans in [OpenSim](https://simtk.org/projects/opensim) are provided. Moreover, one can leverage motion trajectories from the [Mirevi Motion Hub (MMH)](https://github.com/Mirevi/MotionHub) by using our tools.
+
 # Requirements
 
 ## Mirevi Motion Hub (MMH) (optional)
 
-Optionally, you can install a release of the [Mirevi Motion Hub (MMH)](https://github.com/Mirevi/MotionHub) in order to record animations and a [T-Pose](https://en.wikipedia.org/wiki/T-pose). 
+Optionally, you can install a release of the [MMH](https://github.com/Mirevi/MotionHub) in order to record animations and a [T-Pose](https://en.wikipedia.org/wiki/T-pose). 
 
 ## Unity
 
@@ -76,3 +80,7 @@ Check if the variable *path* points to the folder which contains the body parts 
 # Apply Custom Trajectories in OpenSim
 
 Record a motion trajectory with the [MMH](https://github.com/Mirevi/MotionHub) and export it as .mmh file. After that, convert the .mmh file to a .mot file with the [mmh2mot](./mmh_tools/mmh2mot.py) tool (its usage is described in the [README](./mmh_tools/mmh2mot.py)). Now, open the [OpenSim](https://simtk.org/projects/opensim) GUI and open a model (e.g. the custom model from the previous section). Click on *File->Load Motion...* and select the converted .mot file. Alternatively, you can open an already converted file called [sample_movement.mot](./sample_movement.mot) which was recorded with the [Microsoft Azure Kinect](https://azure.microsoft.com/de-de/services/kinect-dk/).  
+
+# Citation
+
+Will be added soon. 
