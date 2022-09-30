@@ -1,3 +1,5 @@
+![Kinect movement trajectory that is applied onto a body scan in OpenSim.](./figures/raise_box.JPG)
+
 # Individual Motion Analysis (IMA)
 
 This is a collection of tools that can be used in combination with [OpenSim](https://simtk.org/projects/opensim). Tools to integrate individual body scans in [OpenSim](https://simtk.org/projects/opensim) are provided. Moreover, one can leverage motion trajectories from the [Mirevi Motion Hub (MMH)](https://github.com/Mirevi/MotionHub) by using our tools. Please note that this framework is not yet fully validated. Hence, we can not guarantee validity of calculation results.
