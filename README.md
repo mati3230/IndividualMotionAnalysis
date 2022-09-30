@@ -1,4 +1,5 @@
-![Kinect movement trajectory that is applied onto a body scan in OpenSim.](./figures/raise_box.JPG)
+![](./figures/raise_box.JPG)
+**Fig. 1:** Kinect movement trajectory that is applied onto a body scan in OpenSim.
 
 # Individual Motion Analysis (IMA)
 
