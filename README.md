@@ -1,6 +1,6 @@
 # Individual Motion Analysis (IMA)
 
-This is a collection of tools that can be used in combination with [OpenSim](https://simtk.org/projects/opensim). Tools to integrate individual body scans in [OpenSim](https://simtk.org/projects/opensim) are provided. Moreover, one can leverage motion trajectories from the [Mirevi Motion Hub (MMH)](https://github.com/Mirevi/MotionHub) by using our tools.
+This is a collection of tools that can be used in combination with [OpenSim](https://simtk.org/projects/opensim). Tools to integrate individual body scans in [OpenSim](https://simtk.org/projects/opensim) are provided. Moreover, one can leverage motion trajectories from the [Mirevi Motion Hub (MMH)](https://github.com/Mirevi/MotionHub) by using our tools. Please note that this framework is not yet fully validated. Hence, we can not guarantee validity of calculation results.
 
 # Requirements
 
@@ -83,4 +83,20 @@ Record a motion trajectory with the [MMH](https://github.com/Mirevi/MotionHub) a
 
 # Citation
 
-Will be added soon. 
+@inproceedings{10.1145/3543758.3549890,
+author = {Greve, Daniel and Tiator, Marcel and Kreischer, Christian and Geiger, Christian},
+title = {Personalized Motion Analysis with Consideration of Body Segment Shapes},
+year = {2022},
+isbn = {9781450396905},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3543758.3549890},
+doi = {10.1145/3543758.3549890},
+abstract = {Our aim is the configuration and evaluation of individual exoskeletons. To do so, we decided to analyze individual biomechanical models of 3D scanned human bodies and subsequent motions in OpenSim (OSim). Other than most existing approaches, our biomechanical model is reduced to be well suited for the fundamental assessment of exoskeletons. To create the model, parameters are derived from body segment shapes. Further, motion trajectories from various tracking systems can be integrated due to the utilization of Mirevi Motion Hub (MMH). Tools are provided in order to cut the scanned body into segments, to automatically calculate mass as well as inertia properties and to integrate them in an OSim model. In addition, we propose a conversion from the MMH file format into an OSim readable file format. Overall, we consider our solution as flexible, as we only assume a mesh as output of the body scan and as different tracking systems can be leveraged by using the MMH middleware. Future work will address the evaluation of our framework.},
+booktitle = {Proceedings of Mensch Und Computer 2022},
+pages = {467–471},
+numpages = {5},
+keywords = {Exoskeleton, Segmentation, Body Scanning, Tracking, Human Model},
+location = {Darmstadt, Germany},
+series = {MuC '22}
+}
